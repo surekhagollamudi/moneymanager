@@ -1,0 +1,39 @@
+.list1 {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+  border-radius: 13px;
+  display: flex;
+  padding: 30px;
+  border-style: solid;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  margin-bottom: 15px;
+}
+.balance-img {
+  height: 80px;
+  width: 80px;
+  margin-right: 30px;
+}
+.ur-balance {
+  color: #334155;
+  font-family: 'Roboto';
+}
+.balance {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.list2 {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.list3 {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+@media screen and (min-width: 768px) {
+  .list1 {
+    margin-right: 20px;
+    width: 40%;
+  }
+}
